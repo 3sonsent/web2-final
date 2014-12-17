@@ -1,0 +1,334 @@
+/*html body { 
+
+		width: 100%;
+		height:100%;
+		}*/
+		
+		
+body {
+    font-family: 'Roboto Slab', serif;
+	margin:auto;
+	padding:0;
+	background-image: url("background.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	}
+	
+	
+#name   {
+
+			width:900px;
+			height: 300px;
+			
+
+			}
+			
+ul  	{ 
+
+		  list-style-type:none;
+		  width: 150px;
+		  height: 150px;
+		  padding: 20px;
+		  background-color: rgba(255,255,255,0.3);
+		  
+		  border-radius: 25px;
+		  position:fixed;
+		   
+		   
+		   
+		   
+		   }
+		   
+li      { 
+			margin: 12px;
+			
+			}
+			
+
+	
+#one {
+
+			width:900px;
+			height:400px;
+			Margin:auto;
+			padding:0;
+			background-color: rgba(255,255,255,0.3);
+			/*border: 2px solid;*/
+            border-radius: 25px;
+		
+
+			}
+			
+h1    {  
+
+			text-align:center;
+			
+			}
+			
+#latin1 {
+
+			width: 350px;
+			float:left;
+			margin: auto;
+			padding:10px;
+			color:black;
+			
+			
+			
+			}
+			
+#latin2 {
+
+			width:350px;
+			float:right;
+			color:black;
+			margin: auto;
+			padding:10px;
+			
+			
+			}			
+			
+#two {
+
+			width:900px;
+			height:400px;
+			background-color:rgba(255,255,255,0.3);
+			margin-top:40px ;
+			margin-left:  224px;
+			padding:0;
+			text-align: center;
+			
+             border-radius: 25px;
+		
+
+			}
+			
+iframe  {
+
+				margin:45px;
+			
+			}
+			
+#three {
+
+		    width:900px;
+			height:400px;
+			background-color:rgba(255,255,255,0.3);
+			margin-top:40px ;
+			margin-left:  224px;
+			padding:0;
+			text-align: center;
+			
+             border-radius: 25px;	
+
+			}		
+#three img {
+	width: 100px;
+	height: auto;
+	margin-right: 10px;
+	margin-top: 10px;
+	vertical-align: middle;
+	transition: 0.5s;
+}			
+
+#three img:hover {
+	transform: translateX(-10px);
+	width: 200px;
+	margin-right: 0;
+	margin-top: 0;
+}
+
+a { 
+
+		text-decoration: none;
+		color:white;
+		
+		}
+		
+a:hover { 
+	
+    
+	transform: translateX(-15px);
+    font-size:24px;
+	margin-right: 0;
+	margin-top: 0;
+	transition: 0.5s;
+
+
+
+}		
+
+a: visited { 
+
+	color:red;
+
+
+}
+
+@media screen and (max-width: 560px) {
+    #name   {
+
+			width:100%;
+			height:auto;
+			
+		
+			
+
+			}
+			
+			
+			
+ul  	{ 
+		  
+		  list-style-type:none;
+		  width: 90%;
+		  height: 3%;
+		  padding: 25px;
+		  border-radius: 25px;
+		  position:absolute;
+		   
+		   
+		   
+		   
+		   }
+		   
+li      { 
+			margin: 29px;
+			display:inline;
+			}
+			
+			
+	
+#cursive {
+
+    width:100%;
+	height:auto;
+	}
+	
+#one {
+
+			width:100%;
+			height:95%;
+			position:absolute;
+			/*Margin:auto;*/
+			padding:0;
+			float:left;
+			top:45%;
+			
+			/*background-color: rgba(255,255,255,0.3);*/
+			/*border: 2px solid;*/
+            border-radius: 25px;
+		
+
+			}	
+			
+#latin1 {
+			
+			width: 47%;
+			height:30px;
+			float:left;
+			margin: 2px;
+			padding:2px;
+			color:black;
+			
+			
+			
+			}
+			
+
+			
+#latin2 {
+			
+			width:47%;
+			height:30px;
+			float:right;
+			color:black;
+			margin: 2px;
+			padding:5px;
+			
+			
+			}		
+
+#two {
+
+			width:100%;
+			height:auto;
+			position:absolute;
+			top: 140%;
+			float:left;
+			
+			margin-top:40px ;
+			margin-left:  1px;
+			padding:0;
+			text-align: center;
+			
+             border-radius: 25px;
+		
+
+			}
+			
+iframe  {
+				width: 50%;
+				height:50%;
+				margin:20px;
+			
+			}		
+
+#three {
+            Position: absolute; 
+			top: 190%;
+		    width:100%;
+			height:auto;
+			background-color:rgba(255,255,255,0.3);
+			margin-bottom:40px;
+			margin-left:  auto;
+			padding:0;
+			text-align: center;
+			
+             border-radius: 25px;	
+
+			}		
+#three img {
+	width: 50px;
+	height: auto;
+	margin-right: 10px;
+	margin-top: 5px;
+	vertical-align: middle;
+	transition: 0.5s;
+}			
+
+#three img:hover {
+	transform: translateX(-10px);
+	width: 100px;
+	margin-right: 0;
+	margin-top: 0;
+}
+
+a { 
+
+		text-decoration: none;
+		color:white;
+		
+		}
+		
+a:hover { 
+	
+    
+	transform: translatex(-10px);
+    font-size:14px;
+	margin-right: 0;
+	margin-top: 0;
+	transition: 0.5s;
+
+
+
+}		
+
+a: visited { 
+
+	color:red;
+
+
+}			
+	
+}
